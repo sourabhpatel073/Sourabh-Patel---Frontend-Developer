@@ -6,11 +6,13 @@ function Navbar() {
     <Box
       style={{
         width: "1440px",
-        height: "72px",
+        height: "32px",
         position: "absolute",
         top: "0.42px",
         left: "0.46px",
         gap: "0px",
+        zIndex: "100px",
+        backgroundColor: "rgba(0, 0, 0, 0.6)",
       }}
     >
       <Box
@@ -115,14 +117,12 @@ function Navbar() {
             justifyContent: "space-between",
           }}
         >
-          rigth 1{/*  */}
           <Box
             style={{
               width: "134px",
               height: "40px",
               borderRadius: "4px 0px 0px 0px",
               padding: "13px 24px 11px 24px",
-             
             }}
           >
             <Box
@@ -134,10 +134,10 @@ function Navbar() {
                 fontWeight: 500,
                 lineHeight: "16px",
                 textAlign: "center",
-
                 backgroundColor: "#0a0a23",
-               boxShadow:" 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12)",
-                 color: "#DFDEDF"
+                boxShadow: " 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12)",
+                color: "#DFDEDF",
+                zIndex:"100"
               }}
             >
               Whitepaper
@@ -148,7 +148,6 @@ function Navbar() {
               width: "133px",
               height: "40px",
               padding: "13px 24px 11px 24px",
-            
             }}
           >
             <Box
@@ -161,13 +160,14 @@ function Navbar() {
                 lineHeight: "16px",
                 textAlign: "center",
                 color: "rgba(255, 255, 255, 1)",
-                padding:"0px, 0px, 0.5px, 0px",
-                backgroundColor:"",
+                padding: "0px, 0px, 0.5px, 0px",
+                backgroundColor: "",
                 borderRadius: "100px",
-  backgroundColor: "#4C43CD",
-  backgroundImage: "radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%)",
-  boxShadow: "2px 19px 31px rgba(0, 0, 0, 0.2)",
-  fontWeight: "bold"
+                backgroundColor: "#4C43CD",
+                backgroundImage:
+                  "radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%)",
+                boxShadow: "2px 19px 31px rgba(0, 0, 0, 0.2)",
+                fontWeight: "bold",
               }}
             >
               Get Started

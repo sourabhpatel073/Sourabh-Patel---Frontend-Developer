@@ -8,13 +8,10 @@ function SectionA() {
       style={{
         width: "1440px",
         height: "1292px",
-        top: "72.42px",
-        left: " 0.46px",
-        width: "1440px",
-        height: "1292px",
         position: "absolute",
         top: "72.42px",
         left: "0.46px",
+       
       }}
     >
         <Box
