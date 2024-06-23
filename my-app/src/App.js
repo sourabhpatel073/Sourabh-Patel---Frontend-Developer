@@ -4,6 +4,9 @@ import { Box } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar";
 import SectionA from "./Components/SectionA";
 import TopImages from "./Components/TopImages";
+import BottomImages from "./Components/BottomImages";
+import AvagtarDiv from "./Components/AvagtarDiv";
+import BottomDiv from "./Components/BottomDiv";
 function App() {
   return (
     <div className="App">
@@ -11,13 +14,18 @@ function App() {
         style={{
           width: "1440px",
           height: "14140.2px",
-          gap: "0px",
           background: "rgba(0, 0, 0, 1)"
         }}
-        border="1 px solid"
-      ><Navbar/>
+       
+      >
+      <Navbar/>
         <SectionA/>
         <TopImages/>
+        <BottomImages/>
+        <AvagtarDiv></AvagtarDiv>
+        <BottomDiv>
+          
+        </BottomDiv>
       </Box>
     </div>
   );
