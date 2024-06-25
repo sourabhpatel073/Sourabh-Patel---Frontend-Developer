@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Circle, Text } from "@chakra-ui/react";
 import React from "react";
 
 function Token() {
@@ -297,7 +297,73 @@ function Token() {
             left="96px"
             top={"40px"}
             transform="rotate(90deg)"
-          ></Box>
+          >
+            <Box position="relative" width="385.06px" height="385.06px">
+              <Box
+                width="285.06px"
+                height="285.06px"
+                position="absolute"
+                top="0"
+                left="0"
+                borderWidth="60px"
+                borderStyle="solid"
+                borderRadius="285.06px"
+                color="rgba(255, 143, 52, 1)"
+                borderRightColor="transparent"
+                borderLeftColor="transparent"
+                borderTopColor="transparent"
+                transform="rotate(90deg)"
+              />
+
+              <Box
+                width="285.06px"
+                height="285.06px"
+                position="absolute"
+                top="0"
+                left="0"
+                borderWidth="60px"
+                borderStyle="solid"
+                borderRadius="285.06px"
+                color="rgba(153, 52, 255, 1);"
+                borderRightColor="transparent"
+                borderLeftColor="transparent"
+                borderTopColor="transparent"
+                transform="rotate(-5deg)"
+              />
+
+              <Box
+                width="285.06px"
+                height="285.06px"
+                position="absolute"
+                top="0"
+                left="0"
+                borderWidth="60px"
+                borderStyle="solid"
+                borderRadius="585.06px"
+                color="rgba(2, 141, 253, 1)"
+                borderRightColor="transparent"
+                borderLeftColor="transparent"
+                borderTopColor="transparent"
+                transform="rotate(-105deg)"
+              />
+             
+              <Box
+                width="170.06px"
+                height="170.06px"
+                position="absolute"
+                top="-1"
+                left="30"
+                borderWidth="60px"
+                borderStyle="solid"
+                borderRadius="200.06px"
+                color="rgba(190, 44, 44, 1)"
+                borderRightColor="transparent"
+                borderLeftColor="transparent"
+                borderTopColor="transparent"
+                transform="rotate(-180deg)"
+              />
+            </Box>
+          </Box>
         </Box>
 
         {/* right */}

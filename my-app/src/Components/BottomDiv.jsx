@@ -5,6 +5,8 @@ import BottomImages from './BottomImages'
 import ButtonsDiv from './ButtonsDiv'
 import AIDiv from './AIDiv'
 import Token from './Token'
+import BottomLast from './BottomLast'
+import Footer from './Footer'
 
 function BottomDiv() {
   return (
@@ -20,6 +22,8 @@ function BottomDiv() {
  <ButtonsDiv></ButtonsDiv>
  <AIDiv></AIDiv>
  <Token></Token>
+ <BottomLast></BottomLast>
+ <Footer></Footer>
   </Box>
   )
 }
