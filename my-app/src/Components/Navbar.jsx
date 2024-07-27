@@ -5,23 +5,24 @@ function Navbar() {
   return (
     <Box
       style={{
-        width: "1440px",
-        height: "32px",
+        width: "100%",
+        height: "58px",
         position: "absolute",
-        top: "0.42px",
-        left: "0.46px",
-        gap: "0px",
-        zIndex: "100px",
-        backgroundColor: "rgba(0, 0, 0, 0.6)",
+        background: "rgba(0, 0, 0, 1)",
+        alignItems: "center",
+        marginLeft: "20px",
+        zIndex: "1",
+        alignItems: "center",
       }}
     >
       <Box
         style={{
-          width: "1312px",
+          width: "1200px",
           height: "40px",
           display: "flex",
           justifyContent: "space-between",
           gap: "0px",
+          alignItems: "center",
         }}
       >
         {/* left */}
@@ -110,70 +111,48 @@ function Navbar() {
 
         {/* rigth */}
         <Box
-          style={{
-            width: "279px",
-            height: "40px",
-            display: "flex",
-            justifyContent: "space-between",
-          }}
-        >
-          <Box
-            style={{
-              width: "134px",
-              height: "40px",
-              borderRadius: "4px 0px 0px 0px",
-              padding: "13px 24px 11px 24px",
-            }}
-          >
-            <Box
-              style={{
-                width: "86px",
-                height: "16.5px",
-                fontFamily: "Outfit",
-                fontSize: "16px",
-                fontWeight: 500,
-                lineHeight: "16px",
-                textAlign: "center",
-                backgroundColor: "#0a0a23",
-                boxShadow: " 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12)",
-                color: "#DFDEDF",
-                zIndex:"100"
-              }}
-            >
-              Whitepaper
-            </Box>
-          </Box>
-          <Box
-            style={{
-              width: "133px",
-              height: "40px",
-              padding: "13px 24px 11px 24px",
-            }}
-          >
-            <Box
-              style={{
-                width: "85px",
-                height: "16.5px",
-                fontFamily: "Outfit",
-                fontSize: "16px",
-                fontWeight: 500,
-                lineHeight: "16px",
-                textAlign: "center",
-                color: "rgba(255, 255, 255, 1)",
-                padding: "0px, 0px, 0.5px, 0px",
-                backgroundColor: "",
-                borderRadius: "100px",
-                backgroundColor: "#4C43CD",
-                backgroundImage:
-                  "radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%)",
-                boxShadow: "2px 19px 31px rgba(0, 0, 0, 0.2)",
-                fontWeight: "bold",
-              }}
-            >
-              Get Started
-            </Box>
-          </Box>
-        </Box>
+  style={{
+    width: "279px",
+    height: "40px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center", // Center items vertically in the outer Box
+    fontSize: "16px",
+    fontFamily: 'sans-serif',
+    marginTop:'5px'
+  }}
+>
+  <Box
+    style={{
+      color: "white",
+      width: "100px",
+      height: "30px",
+      borderRadius: "10px",
+      display: "flex", // Added to center items within this Box
+      justifyContent: "center", // Center items horizontally within this Box
+      alignItems: "center", // Center items vertically within this Box
+      background: "#7C6F6C"
+    }}
+  >
+    Whitepaper
+  </Box>
+
+  <Box
+    style={{
+      color: "white",
+      width: "100px",
+      height: "30px",
+      borderRadius: "10px",
+      display: "flex", // Added to center items within this Box
+      justifyContent: "center", // Center items horizontally within this Box
+      alignItems: "center", // Center items vertically within this Box
+      background: "#8B59BA"
+    }}
+  >
+    Get Started
+  </Box>
+</Box>
+
       </Box>
     </Box>
   );

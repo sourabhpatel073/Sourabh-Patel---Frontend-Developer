@@ -5,23 +5,23 @@ function BottomLast() {
   return (
     <Box>
       <Box
-        width="1440px" // Maximum width constrain
+        width="1257px" // Maximum width constrain
         height="1881px" // Minimum height to ensure it hugs content but respects min height
         padding="40px 0px 0px 0px" // Padding top 40px, other sides 0px
         gap="64px" // Gap between child elements
         color={"white"}
-        border="1px solid red"
+      
       >
         <Box
-          width="1400px" // Maximum width constraint
+          width="1257px" // Maximum width constraint
           height="auto" // Hug height, translates to auto in CSS
           minHeight="64px" // Minimum height to ensure it hugs content but respects min height
           padding="0px 40px 0px 40px" // Padding (top, right, bottom, left)
-          gap="8px" // Gap between child elements
-          border="1px solid green"
+          gap="6px" // Gap between child elements
+          
         >
           <Box
-            width={"1400px"}
+            width={"1257px"}
             h={"64"}
             color="rgba(250, 117, 248, 1)"
             fontWeight="400"
@@ -41,12 +41,12 @@ function BottomLast() {
         <Box
           display={"flex"}
           flexDirection={"row"}
-          width={"1441px"}
+          width={"1257px"}
           height={"503px"}
           gap={"100px"}
           marginBottom={"100px"}
         >
-          <Box width={"528px"} height={"304px"} border={"1px solid red"}>
+          <Box width={"528px"} height={"304px"}>
             <Box
               width={"177px"}
               height={"64px"}
@@ -70,7 +70,7 @@ function BottomLast() {
               </List>
             </Box>
           </Box>
-          <Box width={"637px"} height={"530px"} border={"1px solid red"}>
+          <Box width={"637px"} height={"530px"}>
             <Image w={"629px"} height={"508px"} src="doller.png" />
           </Box>
         </Box>
@@ -80,12 +80,12 @@ function BottomLast() {
         <Box
           display={"flex"}
           flexDirection={"row"}
-          width={"1441px"}
+          width={"1257px"}
           height={"503px"}
           gap={"100px"}
           marginBottom={"100px"}
         >
-          <Box width={"528px"} height={"304px"} border={"1px solid red"}>
+          <Box width={"528px"} height={"304px"} >
             <Box
               width={"177px"}
               height={"64px"}
@@ -109,7 +109,7 @@ function BottomLast() {
               </List>
             </Box>
           </Box>
-          <Box width={"637px"} height={"530px"} border={"1px solid red"}>
+          <Box width={"637px"} height={"530px"}>
             <Image w={"629px"} height={"508px"} src="Avenger.png" />
           </Box>
         </Box>
@@ -119,11 +119,11 @@ function BottomLast() {
         <Box
           display={"flex"}
           flexDirection={"row"}
-          width={"1441px"}
+          width={"1257px"}
           height={"503px"}
           gap={"100px"}
         >
-          <Box width={"528px"} height={"304px"} border={"1px solid red"}>
+          <Box width={"528px"} height={"304px"} >
             <Box
               width={"177px"}
               height={"64px"}
@@ -149,7 +149,7 @@ function BottomLast() {
               </List>
             </Box>
           </Box>
-          <Box width={"637px"} height={"530px"} border={"1px solid red"}>
+          <Box width={"637px"} height={"530px"}>
             <Image w={"629px"} height={"508px"} src="Tier.png" />
           </Box>
         </Box>

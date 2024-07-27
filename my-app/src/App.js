@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Box
         style={{
-          width: "1440px",
-          height: "14140.2px",
-          background: "rgba(0, 0, 0, 1)"
+          height: "7500.2px",
+          background: "rgba(0, 0, 0, 1)",
+         
         }}
        
       >
@@ -23,9 +23,7 @@ function App() {
         <TopImages/>
         <BottomImages/>
         <AvagtarDiv></AvagtarDiv>
-        <BottomDiv>
-          
-        </BottomDiv>
+        <BottomDiv>          </BottomDiv>
       </Box>
     </div>
   );

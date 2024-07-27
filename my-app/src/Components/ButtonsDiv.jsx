@@ -4,16 +4,17 @@ import React from "react";
 function ButtonsDiv() {
   return (
     <Box
-      width="1440px" // Fixed width
+      width="1257px" // Fixed width
       height="288px" // Hug height translates to auto in CSS
       display="flex" // Flexbox for gap to be effective
       flexDirection="column" // Ensure children stack vertically
       position="absolute"
        gap="24px"
      >
+    
      {/* first div */}
       <Box
-        width="1881.01px"
+        width="1257.01px"
         height="108px" // Ensuring the minimum height
         position="relative" // Position relative for left positioning
         left="0.46px" // Left offset
@@ -21,6 +22,7 @@ function ButtonsDiv() {
         gap="24px" // Gap between child elements
         display="flex"
         flexDirection="row"
+       
       >
         <Box
           w="98px"
@@ -158,14 +160,15 @@ function ButtonsDiv() {
       </Box>
 {/* second div */}
       <Box
-        width="2045px" // Ensuring the maximum width
+        width="1645px" // Ensuring the maximum width
         height="156px" // Ensuring the minimum height
         position="relative" // Position absolute for top and left positionin
-        left="-302.46px" // Left offset
+        left="-392.46px" // Left offset
         padding="0px 0px 64px 0px" // Padding
         gap="24px" // Gap between child elements
         display={"flex"}
-        flexDirection={"rownpm "}
+        flexDirection={"row"}
+    
       >
 
      {/* box start */}

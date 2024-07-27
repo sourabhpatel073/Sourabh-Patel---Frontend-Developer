@@ -4,19 +4,20 @@ import React from "react";
 function Token() {
   return (
     <Box
-      width="1440px" // Maximum width constrain
+      width="1257px" // Maximum width constrain
       height="905px" // Minimum height to ensure it hugs content but respects min height
       padding="40px 0px 0px 0px" // Padding top 40px, other sides 0px
       gap="64px" // Gap between child elements
       color={"white"}
+    
     >
       <Box
-        width="1400px" // Maximum width constraint
+        width="1300px" // Maximum width constraint
         height="auto" // Hug height, translates to auto in CSS
         minHeight="64px" // Minimum height to ensure it hugs content but respects min height
         padding="0px 40px 0px 40px" // Padding (top, right, bottom, left)
         gap="8px" // Gap between child elements
-        border="1px solid green"
+       
       >
         <Box
           width={"1400px"}
@@ -267,13 +268,12 @@ function Token() {
       </Box>
 
       <Box
-        width="100%" // Fill width
-        maxWidth="1440px" // Maximum width constraint
+        Width="1400px" // Maximum width constraint
         height="auto" // Hug height, translates to auto in CSS
         minHeight="504px" // Minimum height to ensure it hugs content but respects min height
         padding="0px 80px 0px 80px" // Padding (top, right, bottom, left)
         gap="92px" // Gap between child elements
-        border="1px solid blue" // For visualization, remove in actual implementation
+  
         display={"flex"}
         flexDirection={"row"}
         justifyItems={"center"}
@@ -286,13 +286,13 @@ function Token() {
           height="504px" // Fixed height
           gap="0px" // No gap between child elements
           borderRadius="25.67px 0px 0px 0px" // Border radius
-          border="1px solid red" // For visualization, remove in actual implementation
+         
           position={"relative"}
         >
           <Box
             width={"385px"}
             h={"385px"}
-            border={"1px solid red"}
+           
             position={"relative"}
             left="96px"
             top={"40px"}
@@ -372,9 +372,40 @@ function Token() {
           height="336px" // Fixed height
           gap="0px" // No gap between child elements
           borderRadius="25.67px 0px 0px 0px" // Border radius
-          border="1px solid red" // For visualization, remove in actual implementation
+         color={'white'}
         >
-          {/* Add your content here */}
+        {/* /box1 */}
+         <Box width={'520px'} height={'43px'} border={'1px solid #FFFFFF'} borderRadius={'20px'} display={'flex'} borderLeftColor={'#BE2C2C'} borderLeftWidth={'30px'} justifyContent={'space-between'} flexDirection={'row'} alignItems={'center'}>
+         <Box w={'254px'} >Partnership</Box>
+        
+         <Box w='147px' display={'flex'} alignItems={'center'} textAlign={'left'}><Text >:</Text><Text marginLeft={'10px'}>5% tokens</Text></Box>
+         
+         </Box>
+{/* box2 */}
+         <Box width={'520px'} height={'43px'} border={'1px solid #FFFFFF'} borderRadius={'20px'} display={'flex'} borderLeftColor={'#FF8F34'} borderLeftWidth={'30px'} justifyContent={'space-between'} flexDirection={'row'} alignItems={'center'} marginTop={'20px'}>
+         <Box w={'254px'} >LP Pool</Box>
+        
+         <Box w='147px' display={'flex'} alignItems={'center'} textAlign={'left'}><Text >:</Text><Text marginLeft={'10px'}>35% tokens</Text></Box>
+         
+         </Box>
+
+         {/* box3 */}
+
+         <Box width={'520px'} height={'43px'} border={'1px solid #FFFFFF'} borderRadius={'20px'} display={'flex'} borderLeftColor={'#9934FF'} borderLeftWidth={'30px'} justifyContent={'space-between'} flexDirection={'row'} alignItems={'center'} marginTop={'20px'}>
+         <Box w={'254px'} >Burned</Box>
+        
+         <Box w='147px' display={'flex'} alignItems={'center'} textAlign={'left'}><Text >:</Text><Text marginLeft={'10px'}>30% tokens</Text></Box>
+         
+         </Box>
+
+         {/* box4 */}
+
+         <Box width={'520px'} height={'43px'} border={'1px solid #9934FF'} borderRadius={'20px'} display={'flex'} borderLeftColor={'#028DFD'} borderLeftWidth={'30px'} justifyContent={'space-between'} flexDirection={'row'} alignItems={'center'} marginTop={'20px'}>
+         <Box w={'254px'} >BNB LP Pool</Box>
+        
+         <Box w='147px' display={'flex'} alignItems={'center'} textAlign={'left'}><Text >:</Text><Text marginLeft={'10px'}>30% tokens</Text></Box>
+         
+         </Box>
         </Box>
       </Box>
     </Box>
